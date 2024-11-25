@@ -19,7 +19,7 @@ class LogicThingsTest {
     void testWordCountAndLongestWord() {
         LogicThings logic = new LogicThings();
 
-        logic.processBreak("Roligt roligt");
+        logic.processBreak("roligt roligt");
         logic.processBreak("hej hej hej hej  hej hej");
 
         assertEquals(8, logic.getHowManyWords(), "Ska vara 8 ord");
