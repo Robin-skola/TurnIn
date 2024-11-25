@@ -23,7 +23,7 @@ class LogicThingsTest {
         logic.processBreak("hej hej hej hej  hej hej");
 
         assertEquals(8, logic.getHowManyWords(), "Ska vara 8 ord");
-        assertEquals("gött", logic.getLongestWord(), "Längsta ordet ska vara fun");
+        assertEquals("gött", logic.getLongestWord(), "Längsta ordet ska vara roligt");
     }
 
     @Test
