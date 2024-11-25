@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanningText = new Scanner(System.in); // Tar emot texten i konsolen.
-        LogicThings theLoopLogic = new LogicThings(); // Skapa en ritning av LogicThings
+        LogicThings theLoopLogic = new LogicThings(); // Skapa en instans av LogicThings
 
         System.out.println("Skriv in text. Skriv 'stop' för att avsluta.");/* // Skriver ut hur programmet
         ska användas.
